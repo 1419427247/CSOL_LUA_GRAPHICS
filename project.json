@@ -1,0 +1,18 @@
+{
+  "common":[
+
+   ],
+  "game": [
+
+  ],
+  "ui": [
+    "Font_1.lua",
+    "Font_2.lua",
+    "Font_3.lua",
+    "Font_4.lua",
+    "Font_5.lua",
+    "Font_6.lua",
+    "Font_7.lua",
+    "Text.lua"
+  ]
+}
