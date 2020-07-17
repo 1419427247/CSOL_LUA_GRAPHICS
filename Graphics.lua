@@ -76,7 +76,7 @@ Graphics = (function()
     function Graphics:Remove(id)
         for i = 1,#self.root do
             if self.root[i][1] == id then
-                self.root[i] = nil;
+                table.remove(self.root,i);
                 collectgarbage("collect");
                 return;
             end
