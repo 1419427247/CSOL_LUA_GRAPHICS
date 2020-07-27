@@ -53,6 +53,7 @@ class Frame extends JFrame {
 						}
 					}
 					buff.append("Font[\'" + ca + "\']={");
+
 					for (int R = 0; R < bitmap.length; R++) {
 						for (int C = 0; C < bitmap[R].length; C++) {
 							if (bitmap[R][C] == 'O') {
