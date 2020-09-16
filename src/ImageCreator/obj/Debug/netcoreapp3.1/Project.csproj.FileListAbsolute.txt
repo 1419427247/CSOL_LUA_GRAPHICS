@@ -1,0 +1,13 @@
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\bin\Debug\netcoreapp3.1\Project.exe
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\bin\Debug\netcoreapp3.1\Project.deps.json
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\bin\Debug\netcoreapp3.1\Project.runtimeconfig.json
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\bin\Debug\netcoreapp3.1\Project.runtimeconfig.dev.json
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\bin\Debug\netcoreapp3.1\Project.dll
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\bin\Debug\netcoreapp3.1\Project.pdb
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\obj\Debug\netcoreapp3.1\Project.csprojAssemblyReference.cache
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\obj\Debug\netcoreapp3.1\Project.AssemblyInfoInputs.cache
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\obj\Debug\netcoreapp3.1\Project.AssemblyInfo.cs
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\obj\Debug\netcoreapp3.1\Project.csproj.CoreCompileInputs.cache
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\obj\Debug\netcoreapp3.1\Project.dll
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\obj\Debug\netcoreapp3.1\Project.pdb
+C:\Users\CrystalPad\Documents\Counter-Strike Online\Studio\Script\CSOL_LUA_GRAPHICS\src\ImageCreator\obj\Debug\netcoreapp3.1\Project.genruntimeconfig.cache
