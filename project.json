@@ -6,6 +6,7 @@
 
   ],
   "ui": [
-    "Graphics.lua"
+    "Graphics.lua",
+    "ImageTest.lua"
   ]
 }
