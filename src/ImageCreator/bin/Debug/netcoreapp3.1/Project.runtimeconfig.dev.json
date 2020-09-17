@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\CrystalPad\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\CrystalPad\\.nuget\\packages"
-    ]
-  }
-}

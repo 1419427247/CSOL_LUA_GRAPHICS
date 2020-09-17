@@ -6,11 +6,24 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.ComponentModel;
 using System.Text;
+
+using System.Collections.Generic;
 namespace Project
 {
     class MyForm : Form
     {
+        String list = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ<>";
+        public String IntToSF(int i)
+        {
+            char c1 = list[i % 64];
+            char c2 = list[(i - i % 64) / 64];
+            return c2 + "" + c1;
+        }
+
+
         OpenFileDialog openFileDialog = new OpenFileDialog();
+
+        String title = "iPad水晶的图形生成器,QQ:1419427247";
         public MyForm()
         {
             this.SetBounds(0, 0, 800, 600);
@@ -18,11 +31,12 @@ namespace Project
             this.MaximizeBox = false;
             this.MinimizeBox = false;
 
-            this.Text = "iPad水晶的图形生成器,QQ:1419427247";
+            this.Text = title;
             InitializeComponent();
         }
         PictureBox pictureBox_Preview = new PictureBox();
-        Button button_Build = new Button();
+        Button button_Table_Build = new Button();
+        Button button_String_Build = new Button();
         Button button_SelectImage = new Button();
 
         TrackBar trackBar_Quality = new TrackBar();
@@ -42,10 +56,11 @@ namespace Project
             button_SelectImage.Text = "选择文件";
             this.Controls.Add(button_SelectImage);
 
-            button_Build.SetBounds(500, 500, 100, 30);
-            button_Build.Text = "生成";
-            button_Build.Click += button_Build_Click;
-            this.Controls.Add(button_Build);
+            button_Table_Build.SetBounds(500, 495, 100, 25);
+            button_Table_Build.Text = "生成为表";
+            button_Table_Build.Click += button_Table_Build_Click;
+            this.Controls.Add(button_Table_Build);
+
 
             trackBar_Quality.SetBounds(30, 500, 300, 40);
             trackBar_Quality.Maximum = 25;
@@ -105,12 +120,13 @@ namespace Project
                 dt--;
                 pictureBox_Preview.Refresh();
             }
+            this.Text = title + "/" + dt;
         }
         private void button_SelectImage_Click(object sender, EventArgs e)
         {
             openFileDialog.ShowDialog();
         }
-        private void button_Build_Click(object sender, EventArgs e)
+        private void button_Table_Build_Click(object sender, EventArgs e)
         {
 
             if (this.image == null)
@@ -156,6 +172,7 @@ namespace Project
                             c++;
                         }
                         int int_color = temp.R + temp.G * 256 + temp.B * 65536;
+
                         if (r > c)
                         {
                             for (int m = 0; m < r; m++)
@@ -176,7 +193,7 @@ namespace Project
             builder.Append("}\r\n");
 
             Clipboard.SetDataObject(builder.ToString(), true);
-            System.Windows.Forms.MessageBox.Show("以复制到剪贴板,花费box数量:" + boxsize);
+            System.Windows.Forms.MessageBox.Show("以复制到剪贴板,花费box数量:" + boxsize + "\n字符长度:" + builder.Length);
         }
 
         private void openFileDialog_FileOK(object sender, CancelEventArgs e)
