@@ -75,7 +75,7 @@ namespace Project
             {
                 FrameDimension frameDimension = new FrameDimension(image.FrameDimensionsList[0]);
                 int count = image.GetFrameCount(frameDimension);
-                if (dt >= count - 1)
+                if (dt >= count)
                     dt = 0;
                 else if (dt < 0)
                     dt = count - 1;
